@@ -1,0 +1,16 @@
+{
+  "name": "fake-server",
+  "version": "1.0.0",
+  "description": "fake server with fake database",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "Alijonov Vasliddin",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.16.3",
+    "nodemon": "^2.0.20",
+    "socket.io": "^4.5.4"
+  }
+}
